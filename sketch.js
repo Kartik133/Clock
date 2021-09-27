@@ -34,7 +34,7 @@ function draw() {
       stroke(255,140,0);
       strokeWeight(7);
       noFill();
-      arc(0,0,600,600,0,sAngle);
+      arc(0,0,430,430,0,sAngle);
     pop();
 
     push();
@@ -48,7 +48,7 @@ function draw() {
       stroke(255,255,255);
       strokeWeight(7);
       noFill();
-      arc(0,0,585,585,0,mAngle);
+      arc(0,0,415,415,0,mAngle);
     pop();
 
     push();
@@ -62,7 +62,7 @@ function draw() {
       stroke(0,255,0);
       strokeWeight(7);
       noFill();
-      arc(0,0,570,570,0,hAngle);
+      arc(0,0,400,400,0,hAngle);
     pop();
    
     strokeWeight(8);
