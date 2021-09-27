@@ -27,42 +27,42 @@ function draw() {
       rotate(sAngle);
       stroke(255,140,0);
       strokeWeight(7);
-      line(0,0,150,0);
+      line(0,0,200,0);
     pop();
 
     push();
       stroke(255,140,0);
       strokeWeight(7);
       noFill();
-      arc(0,0,430,430,0,sAngle);
+      arc(0,0,530,530,0,sAngle);
     pop();
 
     push();
       rotate(mAngle);
       stroke(255,255,255);
       strokeWeight(7);
-      line(0,0,105,0);
+      line(0,0,150,0);
     pop();
 
     push();
       stroke(255,255,255);
       strokeWeight(7);
       noFill();
-      arc(0,0,415,415,0,mAngle);
+      arc(0,0,515,515,0,mAngle);
     pop();
 
     push();
       rotate(hAngle);
       stroke(0,255,0);
       strokeWeight(7);
-      line(0,0,67,0);
+      line(0,0,100,0);
     pop();
 
     push();
       stroke(0,255,0);
       strokeWeight(7);
       noFill();
-      arc(0,0,400,400,0,hAngle);
+      arc(0,0,500,500,0,hAngle);
     pop();
    
     strokeWeight(8);
