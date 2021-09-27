@@ -16,6 +16,7 @@ function draw() {
     createCanvas(windowWidth,windowHeight);
     background(0);
 
+    push();
     translate(width/2,height/2);
     rotate(-90);
 
@@ -72,6 +73,7 @@ function draw() {
     strokeWeight(8);
     stroke(255,0,255);
     point(0,0);
+    pop();
     
     textAlign(CENTER);
     textFont(sss);
