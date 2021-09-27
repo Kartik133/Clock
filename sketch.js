@@ -76,5 +76,7 @@ function draw() {
     textAlign(CENTER);
     textFont(sss);
     textSize(50);
+    noStroke();
+    fill(255);
     text("Developed By 'Kartik Khaitan'.",width/2,height-50);
 }
