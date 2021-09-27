@@ -2,7 +2,11 @@ var sAngle,mAngle,hAngle;
 var h;
 var m;
 var s;
-var hours;
+var hours,sss;
+
+function preload() {
+    sss = loadFont("ALGER.TTF");
+}
 
 function setup() {
     angleMode(DEGREES);
@@ -68,4 +72,9 @@ function draw() {
     strokeWeight(8);
     stroke(255,0,255);
     point(0,0);
+    
+    textAlign(CENTER);
+    textFont(sss);
+    textSize(50);
+    text("Developed By 'Kartik Khaitan'.",width/2,height-50);
 }
