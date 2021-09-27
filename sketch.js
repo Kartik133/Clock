@@ -5,11 +5,11 @@ var s;
 var hours;
 
 function setup() {
-    createCanvas(windowWidth,windowHeight);
     angleMode(DEGREES);
 }
 
 function draw() {
+    createCanvas(windowWidth,windowHeight);
     background(0);
 
     translate(width/2,height/2);
@@ -27,42 +27,42 @@ function draw() {
       rotate(sAngle);
       stroke(255,140,0);
       strokeWeight(7);
-      line(0,0,300,0);
+      line(0,0,150,0);
     pop();
 
     push();
       stroke(255,140,0);
       strokeWeight(7);
       noFill();
-      arc(0,0,710,710,0,sAngle);
+      arc(0,0,600,600,0,sAngle);
     pop();
 
     push();
       rotate(mAngle);
       stroke(255,255,255);
       strokeWeight(7);
-      line(0,0,210,0);
+      line(0,0,105,0);
     pop();
 
     push();
       stroke(255,255,255);
       strokeWeight(7);
       noFill();
-      arc(0,0,695,695,0,mAngle);
+      arc(0,0,585,585,0,mAngle);
     pop();
 
     push();
       rotate(hAngle);
       stroke(0,255,0);
       strokeWeight(7);
-      line(0,0,135,0);
+      line(0,0,67,0);
     pop();
 
     push();
       stroke(0,255,0);
       strokeWeight(7);
       noFill();
-      arc(0,0,680,680,0,hAngle);
+      arc(0,0,570,570,0,hAngle);
     pop();
    
     strokeWeight(8);
